@@ -1,0 +1,26 @@
+/*****
+版本     ： 1.0
+日期     ： 2015-6-1  
+版权     ： Copyright ® 2008,20013 信管创业基地. All right reserved.
+修改历史 ：
+
+*/
+@charset "utf-8";
+body{font-size: 0.15rem;font-family: Arial,"微软雅黑";}
+a{color:#fff;}
+header{height:0.4rem;background:#34BCCC;text-align:center;width:100%;font-size: 0.22rem;}
+h2{position: absolute; left:1.15rem;color:#fff;font-size:0.22rem;line-height: 0.4rem;}
+#return{color:#fff;position:absolute; left:0.1rem;font-size: 0.18rem;line-height: 0.4rem;}
+.page{width:100%; height:100%; position: absolute; overflow: hidden; left:0; top:0;}
+#top{width:100%; height:1.16rem; background:#FAFAF7;border-bottom:0.01rem solid blue;position: relative;}
+#username_o,#community_name_o,{position: absolute;}
+#titles{width:0.8rem;background:#FF6699;top:0;left:0.1rem;color:#fff;font-size: 0.12rem;position: absolute;text-align: center;}
+#event_name{width:90%;font-size: 0.16rem;position: absolute;top:0.24rem;left:0.08rem;letter-spacing: 0.01rem;}
+#msg{width:100%;line-height:0.2rem;font-size: 0.12rem;position: absolute;top:0.46rem;left:0.02rem;}
+#msg span{display:inline-block;}
+#msg li{}
+#username_o{top:0.01rem; left:0.01rem;}
+#community_name_o{top:0.01rem;right:0.02rem;}
+time{position: absolute;top:0.9rem;left:0.02rem;font-size: 0.12rem}
+#event_content{ width:96%; height:5rem;margin-top:0.06rem;margin-left:0.06rem;margin-right:0.06rem;font-size: 0.14rem;overflow:auto;}
+#event_content p{ width:96%;margin-top: 0.06rem;line-height: 0.2rem;}

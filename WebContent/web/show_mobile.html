@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>信息港</title>
+    <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css_mobile/show_mobile.css">
+    <link rel="stylesheet" type="text/css" href="css_mobile/base.css">
+    <script type="text/javascript" src="js_mobile/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="js_mobile/show_mobile.js"></script>
+</head>
+
+<body>
+    <article class="page">
+        <header>
+            <h2>信息港</h2><a id="mypost">我的发布</a></header>
+        <div id="search">
+            <form action="" method="post" id="search">
+                <!-- 选择条件查询字段 -->
+                <select name="conditionName" id="selects">
+                    <option value="username" class="opt" selected>发布人</option>
+                    <option value="event_name" class="opt">活动标题</option>
+                    <option value="community_name" class="opt">发布单位</option>
+                </select>
+                <input type="text" name="conditionValue" id="selects_text" autocomplete="off" />
+                <a id="selects_submit">查询</a>
+            </form>
+        </div>
+        <section id="wrap">
+            <ul id="list">
+            </ul>
+            <div id="more">点击加载更多</div>
+        </section>
+        <footer>
+            <a href="post_mobile.html" class="btn">我要发布</a>
+        </footer>
+    </article>
+    <!-- javascript -->
+    <script type="text/javascript">
+    document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientWidth / 3 + "px";
+    document.body.style.visibility = 'visible';
+    </script>
+</body>
+
+</html>

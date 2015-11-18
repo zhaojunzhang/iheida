@@ -1,0 +1,147 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+/*整体网页*/
+.main{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+/*header部分*/
+.header{
+    width:100%;
+    height:90px;
+    line-height: 50px;
+    padding: 20px 40px;
+    background-color: #423e3e;
+    color:#fff;
+    box-sizing:border-box;
+}
+.header .logo{
+    font-size: 25px;
+}
+.header .admin a{
+    color:#ff9900;
+}
+/*search部分*/
+.search{
+    width:100%;
+    line-height: 60px;
+    height:60px;
+    background: #f5f5f5;
+    text-align: center;
+    box-sizing:border-box;
+}
+.search select{
+   background: transparent;
+   width: 150px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+}
+#ser_input{
+   background: transparent;
+   width: 200px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+}
+#search{
+   background: #f8af3e;
+   width: 100px;
+   padding: 5px;
+   font-size: 16px;
+   color:#fff;
+   border-radius: 10px;
+   cursor:pointer;
+}
+.hr_50{
+    clear:both;
+    height:50px;
+}
+.hr_25{
+    clear:both;
+    height:25px;
+}
+/*list部分*/
+.list{
+    width:100%;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+.list form{
+    width:90%;
+    margin:0 auto;
+    border:1px solid #f5f5f5;
+}
+.firstmsg{
+    background: #f7f7f7;
+}
+.list ul li{
+    width:10%;
+    height:40px;
+    float:left;
+    line-height: 40px;
+    border:1px dotted #f5f5f5;
+}
+.list ul li:first-child{
+    width:50px;
+}
+.list ul li:last-child{
+    width:280px;
+}
+.list ul li input{
+	cursor:pointer;
+}
+.delpage,.subpage,.detailpage,.cancelsub{
+	font-size:14px;
+    width:65px;
+    background: #f1f1f1;
+    color:#1111fe;
+    border-radius: 10px;
+    padding: 3px;
+    margin-right: 5px;
+}
+.border_bottom{
+    height: 1px;
+    background: #ccc;
+    clear: both;
+}
+.page{
+    height:40px;
+    line-height: 40px;
+    background:#423e3e;
+    width:100%;
+    text-align: center;
+    margin:10px auto;
+    position: relative;
+    color:#fff;
+}
+.page input{
+    display: inline-block;
+    color:#000;
+    height:30px;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+    border:1px solid #fff;
+    border-radius: 3px;
+    cursor:pointer;
+}
+#delAll{
+    position: absolute;
+    top:0;
+    left:10%;
+}
+.ev_page{
+    width:35px;
+}
+.onpage{
+    color: #fff;
+	background:#f8af3e;
+}
+.notava{
+	color: #fff;
+	background:#808080;
+}

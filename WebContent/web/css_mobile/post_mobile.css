@@ -1,0 +1,25 @@
+/*****
+版本     ： 1.0
+日期     ： 2015-6-1  
+版权     ： Copyright ® 2008,20013 信管创业基地. All right reserved.
+修改历史 ：
+
+*/
+@charset "utf-8";
+body{font-size: 0.15rem;font-family: Arial,"微软雅黑";}
+.page{width:100%; height:100%; position: absolute; overflow: auto; left:0; top:0;}
+textarea{border-radius:6px;}
+header{position: fixed;height:0.4rem;background:#34BCCC;text-align:center;width:100%;left:0;top:0;font-size: 0.22rem; z-index: 2}
+h2{color:#fff;font-weight: bold;line-height: 0.4rem;position:absolute; left:1.2rem;}
+#return{color:#fff;position:absolute; left:0.1rem;font-size: 0.18rem;line-height: 0.4rem;}
+#list{width:90%; margin:0.4rem auto;height:100%;}
+#post{margin-top:0.2rem; height:6rem;font-size: 0.2rem; line-height: 0.52rem;position:relative;overflow: auto;}
+#username,#student_id,#event_name,#community_name{position: absolute; left:0.9rem; height:0.3rem;width:1.6rem;border:0.02rem solid #D1E8FF;border-radius: 6px;}
+#username{top:0.1rem;}
+#student_id{top:0.6rem;}
+#community_name{top:1.1rem;}
+#event_name{top:1.6rem;}
+#event_content{position: absolute;left:0.2rem; top:2.8rem;width:2.2rem;height:2rem;	outline:0.02rem;border:0.02rem solid #D1E8FF; font-size: 0.2rem; line-height: 0.2rem;}
+#btn2{font-weight: bold; position: absolute;left:1.8rem; top:2.2rem;width:0.7rem; height:0.3rem;color:#fff;font-size: 0.2rem;background:#34BCCC;text-align: center;line-height: 0.3rem;}
+footer{height:0.4rem;background:#34BCCC;position:fixed; left:0; bottom: 0;width:100%;font-size: 0.22rem;text-align: center;z-index: 2}
+#btn1{font-weight: bold;line-height: 0.4rem;display: block;color:#fff;}

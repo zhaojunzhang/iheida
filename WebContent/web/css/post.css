@@ -1,0 +1,58 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+/*整体网页*/
+.main{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+/*header部分*/
+.header{
+    width:100%;
+    height:90px;
+    line-height: 50px;
+    padding: 20px 40px;
+    background-color: #423e3e;
+    color:#fff;
+    box-sizing:border-box;
+}
+.header .logo{
+    font-size: 25px;
+}
+.header .admin a{
+    color:#ff9900;
+}
+.hr_25{
+    clear:both;
+    height:25px;
+}
+.list{
+    padding: 30px;
+    border:1px solid #eee;
+}
+.list label{
+	display: inline-block;
+	width:120px;
+	height:60px;
+	font-size: 20px;
+}
+.list input{
+	width:200px;
+	height:30px;
+	border-radius: 5px;
+}
+.list textarea{
+	vertical-align:top;
+	border-radius: 5px;
+}
+#sub{
+	width:450px;
+	height:50px;
+	line-height: 40px;
+	margin-top: 20px;
+	color:#fff;
+	background: #ff9900;
+	font-size: 18px;
+}
